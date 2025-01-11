@@ -1,0 +1,496 @@
+.fira-sans-regular{
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+section{
+  margin-top: 60px;
+}
+
+/* Banner section */
+
+
+/* 1.Banner titles */
+
+ .botton-explore{
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .Btitle1{
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+ }
+
+ .Btitle2{
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+ }
+
+ /* main section */
+
+ .Banner{
+   height: 560;
+   width: 1280;
+ }
+
+  .info-banner{
+
+   width: 50%;
+
+  }
+
+   .inside-banner{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: ;
+      border-radius: 24px;
+
+background: rgb(198, 228, 214);
+   }
+
+   .image-banner{
+      padding: 26px;
+   }
+
+   /* The vision of future */
+
+
+   .inside-vision-future{
+      color: rgb(14, 14, 14);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0%;
+      text-align: left;
+   }
+    
+   .vision-description{
+      color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+   }
+
+   .inside-vision-title{
+      color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+   }
+
+   .inside-vision-desription{
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+   }
+
+    .p-learnmore{
+      border-radius: 8px;
+      border: none;
+      background: rgb(84, 144, 245);
+      color: rgb(255, 255, 255);
+      padding: 11px 20px 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+    }
+
+  .g-learnmore
+  {
+      border-radius: 8px;
+      border: none;
+      background: rgb(9, 161, 92);
+      color: rgb(255, 255, 255);
+      padding: 11px 20px 11px 20px;
+     font-size: 16px;
+     font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .y-learnmore{
+
+      border-radius: 8px;
+      border: none;
+      background: rgb(255, 194, 57);
+      color: rgb(255, 255, 255);
+      padding: 11px 20px 11px 20px;
+      font-size: 16px;
+     font-weight: 600;
+     line-height: 19px;
+      letter-spacing: 0%;
+      text-align: left;
+  }
+
+   .inside-vision{
+      display: flex;
+      gap: 50px;
+      margin-top: 50px;
+   }
+.color-purple{
+  padding: 20px;
+  box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+
+  .color-green
+  {
+      padding: 20px;
+      box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+  }
+
+  .color-yellow{
+      padding: 20px;
+      box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+  }
+
+  /* news part */
+   
+.news-head{
+  color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.news-des{
+  color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+
+
+.news1{
+  display: flex;
+  gap: 34px;
+  margin-top: 35px;
+}
+
+ .al-news-head{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ 
+ .al-news-time{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+  .al-news-des{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+  }
+
+  .satelightpic{
+      border-radius: 24px;
+  }
+
+  .image-part{
+      height: 100%;
+      padding: 20px;
+  }
+
+   .newspart{
+      padding: 20px;
+   }
+
+   /* donation part */
+
+    .donate-heading{
+      color: rgb(14, 14, 14);
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+
+     .donate-des{
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-top: 20px;
+     }
+
+  .secondary-btn
+  {
+      box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 40px;
+background: rgb(255, 255, 255);
+
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .amount{
+      display: flex;
+      justify-content: center;
+      gap:30px ;
+      margin-top: 20px;
+  }
+
+  .input-field{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+#type{
+  padding: 20px 40px 20px 40px;
+  width: 75%;
+  text-align: center;
+}
+
+.last-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+  button:hover{
+     background: rgb(198, 228, 214) ;
+  }
+
+
+  /* subscribe section */
+
+  .subscribe{
+     background: rgb(198, 228, 214) ;
+     border-radius: 24px;
+  }
+
+  .sub-head{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+  }
+
+  .sub-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+ margin-top: 20px;
+  }
+
+  .subbtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+
+  .btn-style{
+    border-radius: 0px 8px 8px 0px;
+  }
+
+   #email{
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+width: 600px;
+
+   }
+
+   .sub-container{
+    padding: 80px 100px 80px 100px;
+   }
+
+    .sub-p{
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    /* speech section */
+
+    .speech-des-st{
+      color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .speech-des-mid{
+      color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 15px;
+margin-bottom: 8px;
+    }
+
+    .speech-des-end{
+      color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    .spech
+    {
+      padding: 48px 24px 48px 24px;
+    }
+
+    .yunus-speech{
+      margin-top: 30px;
+      background-image: url(../assets/quote-bg.png);
+      background-repeat: no-repeat;
+     
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    footer h2{
+      margin-bottom: 10px;
+    }
+
+    .icon-sec{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .i200tk{
+      background: rgb(198, 228, 214);
+    }
+
+    /*  */
+  .main-head{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+   .main-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: rgb(0, 106, 80);
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+   text-align: left;
+   }
+
+   ul{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   }
+   main{
+    margin-top: 50px;
+   }
+
+   nav ul li {
+    list-style: none;
+   }
+   nav ul li a{
+    text-decoration: none;
+   }
